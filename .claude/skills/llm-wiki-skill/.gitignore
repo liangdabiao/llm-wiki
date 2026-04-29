@@ -1,0 +1,8 @@
+node_modules/
+**/node_modules/
+.DS_Store
+*.pyc
+__pycache__/
+deps/baoyu-url-to-markdown/scripts/bun.lock
+.claude/
+.context/

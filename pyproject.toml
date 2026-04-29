@@ -1,0 +1,19 @@
+[project]
+name = "llm-wiki-skill"
+version = "0.1.0"
+description = "个人 AI 知识库系统 - 基于 Karpathy llm-wiki 方法论，利用 Claude Agent SDK 构建和维护结构化 Wiki"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "claude-agent-sdk==0.1.1",
+    "nest-asyncio>=1.6.0",
+    "python-dotenv>=1.1.1",
+    "rich>=14.1.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.34.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
