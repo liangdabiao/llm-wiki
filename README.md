@@ -88,7 +88,7 @@ npx quartz build
 npx wrangler pages deploy public
 ```
 
-当前部署地址：`ai-wiki.pages.dev`
+当前部署地址：`http://wikilego.liangdabiao.com/`
 
 ### 3. Claude Agent SDK — 对外服务
 
