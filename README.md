@@ -71,6 +71,12 @@ ai-wiki/
     └── synthesis/       # 综合分析
 ```
 
+**详细使用步骤：**
+
+❯ ai-guide 是 收集回来的资料， 现在需求为 需要你利用 llm-wiki skill 对这些资料进行分析整理成wiki,请你完成
+
+![](./图片1.png)
+
 ### 2. Quartz Wiki Skill — 静态网站部署
 
 将生成的知识库通过 [Quartz v4](https://quartz.jzhao.xyz/) 发布为美观的静态网站。
@@ -95,7 +101,14 @@ npx quartz build
 npx wrangler pages deploy public
 ```
 
+
+
+**claude code里面详细使用skill步骤：**
+
+❯ 请利用 quartz-wiki skill 把 ai-wiki 制作成 quartz网站
+
 当前部署地址：`http://wikilego.liangdabiao.com/`
+![](./图片2.png)
 
 ### 3. Claude Agent SDK — 对外服务
 
