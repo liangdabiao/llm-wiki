@@ -18,8 +18,7 @@ desktop.ini
 .vscode/
 .idea/
 
-# Quartz (large, manage separately)
-/quartz
+
 
 # Temp files
 _debug*.py
