@@ -2,6 +2,13 @@
 
 基于 [Karpathy llm-wiki]方法论，利用 AI 持续构建和维护你的个人知识库。支持从多种素材源（网页、推特、公众号、小红书、知乎、YouTube、PDF、本地文件）自动整理为结构化的 wiki，并通过 Quartz 发布为静态wiki知识库网站。 并通过 claude_agent_sdk 调用 claude agent 使用 llm-wiki ,提供api接口对外访问服务 。
 
+项目参考了优秀的开源项目：
+https://github.com/kenneth-liao/claude-agent-sdk-intro ，
+https://github.com/sdyckjq-lab/llm-wiki-skill
+
+
+特别感谢佬友：https://linux.do/
+
 ## 三大核心能力
 
 ### 1. LLM Wiki Skill — 知识库构建
